@@ -3,18 +3,10 @@ Crawler of Microsoft Academic and Google Scholar implemented with python
 ###  1. Microsoft Academic Crawler
 Use python to build a crawler for the following website
 ```
+$ python3 macrawler.py
 $ python3 MSSpider.py
 ```
 
-### 2. Microsoft Academic API (POST way)
-Pack Q1 function as an API(POST way) in flask framework
-- Step 1. Run server
-    ```
-    $ python3 MSapi.py
-    ```
- - Step 2. Send POST request in the folloing format
-    > <p>Format: http://127.0.0.1:8000/msscholar/<query></p>
-    > <p>Example : http://127.0.0.1:8000/msscholar/Fin10K</p>
 ### 3. Google Scholar Crawler
 <p>Use python to build a crawler for the following website</p>
 
